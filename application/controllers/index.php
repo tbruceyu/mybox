@@ -10,7 +10,7 @@ class Index extends CI_Controller {
 	    $data['title'] = 'My box demo';
 	    $data['js'] = array('index.js');
 	    $data['main_content'] = 'index_view';
-	    $this->load->view('includes/template_view',$data);
+	    $this->load->view('include/template_view',$data);
 	}
 	public function login() {
 		$this->load->view('login_view');

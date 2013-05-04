@@ -1,0 +1,30 @@
+.file_frame {
+	font-size:15px;
+	padding-left:10px;
+/*	margin-top:5px;*/
+	cursor:pointer;
+	border-bottom:1px solid #C1DBFA;
+	padding:5px 0;
+	height: 30px;
+	
+}
+.file_table {
+	border-collapse: separate;
+	border-bottom:1px solid #C1DBFA;
+	border-spacing: 0px;
+	border-color:transparent;
+	display: table-row;
+}
+.file_frame:hover{
+	background:#E5EDEF;
+}
+.fileimage_style {
+	margin-right: 8px;
+}
+.filename_style {
+	padding-left:30px;
+}
+.title_dir_frame {
+	background: #EBEEF3;
+	border:1px solid #333333;
+}

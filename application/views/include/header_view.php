@@ -7,8 +7,10 @@
         <title><?=(($title == '' ) ? 'No Defined Title' : $title) ?></title>
 	    <link rel="stylesheet" type="text/css" href="<?=base_url()?>source/easyui/themes/default/easyui.css" />
 	    <link rel="stylesheet" type="text/css" href="<?=base_url()?>source/easyui/themes/icon.css" />
+	    <link rel="stylesheet" type="text/css" href="<?=base_url()?>source/css/main.css" />
 	    <script type="text/javascript" src="<?=base_url()?>source/easyui/jquery-1.8.0.min.js"></script>
 	    <script type="text/javascript" src="<?=base_url()?>source/easyui/jquery.easyui.min.js"></script>
+	    <script type="text/javascript" src="<?=base_url()?>source/js/main.js"></script>
         <script type="text/javascript">
             SITE_URL = "<?=site_url() ?>";
         </script>
